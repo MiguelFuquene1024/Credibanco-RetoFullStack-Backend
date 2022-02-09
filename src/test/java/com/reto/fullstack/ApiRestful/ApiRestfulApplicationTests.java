@@ -14,12 +14,7 @@ class ApiRestfulApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-	@Test
-	public void testRegistrarPerson() throws BadRequestException {
-		Person newperson = new Person("Luis Arango",new Date("2016-10-08"),"Ines","Roberto","Laura");
-		personService.create(newperson);
-
-	}
+	
 
 
 }
